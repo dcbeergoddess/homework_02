@@ -14,7 +14,13 @@
 </head>
 
 <body>
-  <!-- Using Bootstrap NavBar (happy Dan?) -->
+    <!-- 
+    .col-x-$ | Extra Small | Phones Less than 768px
+    .col-sm-$ | Small Devices | tables 768px and Up 
+    .col-md-$ | Medium Devices | Desktops 992px and Up
+    .col-xl-$ | Extra Large Devices | 1200px and Up
+   -->
+  <!-- Using Bootstrap NavBar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Rachel Murray</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -39,9 +45,9 @@
       </ul>
     </div>
   </nav>
-<!-- Copied "Form Controls" from Bootstrap and threw it in a container. Changing ids in groups from input1 to actual field input to be more specific but not sure if that will effect elements later when we start capturing inputed info later. Got rid of drop down options for now -->
+<!-- Using Bootstrap Form Controls Changed ids in groups from input1 to actual field input to be more specific but not sure if that will effect elements later when we start capturing inputed info later.-->
   <div class="container">
-    <h3 class="form-heading">Contact</h3>
+    <h1 class="form-heading">Contact</h1>
     <form>
       <div class="form-group">
         <label for="exampleFormControlName">Name</label>
@@ -55,7 +61,7 @@
         <label for="exampleFormControlTextarea1">Message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-    <!-- added in button from bootstrap for a submit form. copied entire code with this button in notebook to reference more. noticed that particular submit form code included javascrip which could be useful later. **THINGS TO TRY LATER:JavaScrip for Submitting Forms** -->
+    <!-- Found Submit button in Bootstrap. Copied Submit Form and Button Code to NoteBook-->
       <button class="btn btn-primary" type="submit">Submit</button>
     </form>
   </div>
