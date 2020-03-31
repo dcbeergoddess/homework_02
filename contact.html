@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,26 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="assets/css/style.css">
-  
+
 </head>
+
 <body>
   <!-- Using Bootstrap NavBar (happy Dan?) -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Rachel Murray</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- changed from mr to ml (margin left) -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        </li>
         <li class="nav-item ">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
@@ -36,15 +39,34 @@
       </ul>
     </div>
   </nav>
-
-<footer>
-<!-- drop before script -->
-<!-- copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+<!-- Copied "Form Controls" from Bootstrap and threw it in a container. Changing ids in groups from input1 to actual field input to be more specific but not sure if that will effect elements later when we start capturing inputed info later. Got rid of drop down options for now -->
+  <div class="container">
+    <h3 class="form-heading">Contact</h3>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlName">Name</label>
+        <input type="name" class="form-control" id="exampleFormControlName" placeholder="Jane Smith">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlEmail">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlEmail" placeholder="example@gmail.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <!-- added in button from bootstrap for a submit form. copied entire code with this button in notebook to reference more. noticed that particular submit form code included javascrip which could be useful later. **THINGS TO TRY LATER:JavaScrip for Submitting Forms** -->
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
   </div>
-</footer> 
-<!-- copyright -->
+  <footer>
+    <!-- drop before script -->
+    <!-- copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+  </footer>
+  <!-- copyright -->
 
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -52,4 +74,5 @@
   <!-- Bootstrap JavaScript CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
