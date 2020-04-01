@@ -1,0 +1,28 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 150%;
+  color: #333333;
+  background: #efeee7;
+}
+
+h1 {
+  font-size: 30px; 
+  color: black;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+}
+
+div.container {
+  background-color: white;
+}
+footer {
+  outline: 1px
+}
+
+/* need to under all headers */
+
+
+
