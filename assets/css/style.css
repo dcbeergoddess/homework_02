@@ -5,7 +5,9 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* Visual */
 
-  background-image: url("../assets/images/zoomHeavyMetalFaces.jpg");
+  background-color: #202020;
+
+  /* background-image: url("/assets/images/zoomHeavyMetalFaces.png"); */
 }
 
 html {
@@ -25,19 +27,23 @@ main {
 /* create styles for use for all white main boxes*/
 
 .block {
-  background-color: #fff;
+  background-color: #FAFAD2;
   padding: 30px;
   margin-bottom: 30px;
 }
 
 .block-header {
   /* typography */
-  color: #4aaaa5;
+  color: #85144b;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
 }
 
 /* NAV START */
+
+nav {
+  background-color: #FAFAD2;
+}
 
 #logo {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -45,26 +51,24 @@ main {
   /* typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: #85144b;
   
-  /* visual */
-  background: maroon;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a.hover {
-  color: maroon;
+  color: black;
 }
 
 .navbar {
-  background: black;
+  background: #FAFAD2;
   border: none;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: white;
+    background-color: #FAFAD2;
   }
 }
 
@@ -104,14 +108,14 @@ main {
     width: 100%;
     height: 60px;
     /* visual */
-    background-color: #666;
+    background-color: #FAFAD2;
   }
 
   .text-muted-footer {
     /* box model */
     margin-top: 15px;
     /* typography */
-    color: #fff;
+    color: #FAFAD2;
   }
 
   .two-toned-footer-color {
@@ -120,7 +124,7 @@ main {
     padding-top: 3px;
 
     /* visual */
-    background-color: #4aaaa5;
+    background-color: #85144b;
   }
 /* END FOOTER */
 /* END STYLE FOR ALL PAGES */
