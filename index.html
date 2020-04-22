@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Basic Portfolio</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,65 +22,75 @@
     .col-md-$ | Medium Devices | Desktops 992px and Up
     .col-xl-$ | Extra Large Devices | 1200px and Up
    -->
-   <!-- Using Bootstrap NavBar -->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Using Bootstrap NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- brand and toggle get grouped for better mobile display -->
-    <a class="navbar-brand" href="index.html" id="logo">Rachel Murray</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <a class="navbar-brand" href="index.html" id="logo">Rachel Murray</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <!-- changed from mr to ml (margin left) -->
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About</a>
-        </li>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <!-- changed from mr to ml (margin left) -->
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
+    <!-- /.container -->
   </nav>
   <!-- End of navbar -->
 
   <!-- About Me -->
-  <div class="container">
-    <div class="card" style="width: auto;">
-      <div class="card-body">
-        <h1 class="card-heading">About Me</h1>
-        <div class="row"></div>
-        <div class="col-xs-12 col-sm-6">
-          <img src="assets/images/RachelInstagram.jpg" id="bio-image" alt="Rachel's Profile Pic">
-        </div>
-        <div class="col-xs-12 col-sm-6">
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <!-- homework way with article -->
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <!-- hr ??? -->
+          <hr />
+          <img src="assets/images/RachelInstagram.jpg" id="bio-image" alt="Rachel's Profile Pic" />
           <p>My full name is Rachel Michel Murray and I was born in Missoula, Montana. I spent my elementary school
             years living in Scottsdale, Arizona and my High School time in Kansas City, Missouri before ending up in
-            Washington, DC for my undergrad at Georgetown University and have been here ever since.</p>
-          <p>During my time at Georgetown I ended up getting a job one summer waiting tables at the Brickskeller right
-            as the American Craft Beer Scene was exploding in the area</p>
-          <p>After 15 years working in the resturant industry I took a sabatical and started looking for what is next
+            Washington, DC for my undergrad at Georgetown University and have been here ever since.
+          </p>
+          <br />
+          <p>During my time at Georgetown I ended up getting a job one summer waiting tables at the Brickskeller
+            right
+            as the American Craft Beer Scene was exploding in the area
+          </p>
+          <br />
+          <p>After 15 years working in the resturant industry I took a sabatical and started looking for what is
+            next
             for my career. Over the past 10 years I have spent some time dabbling in the tech world and am looking
-            forward to finally putting all the pieces together.</p>
-        </div>
+            forward to finally putting all the pieces together.
+          </p>
+        </article>
       </div>
-    </div>
-  </div>
-  <footer>
+    </section>
+  </main>
+
+
+  <footer class="footer">
     <!-- drop before script -->
     <!-- copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-    </div>
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      © 2020 Copyright: Rachel Murray
+    </p>
   </footer>
   <!-- copyright -->
 
