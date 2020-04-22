@@ -4,8 +4,8 @@ body {
   /* Typography */
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* Visual */
-  color: #333333;
-  background: #efeee7;
+
+  background-image: url("../assets/images/zoomHeavyMetalFaces.jpg");
 }
 
 html {
